@@ -20,6 +20,6 @@ source ~/.bashrc
 
 export SHELL="/bin/bash"
 
-env HOME=/home jupyter lab --ip=0.0.0.0 --NotebookApp.token=$TOKEN  --allow-root --port 8889
+env HOME=/home jupyter lab --ip=0.0.0.0 --NotebookApp.token=$TOKEN  --allow-root --port 8889 &
 
 export HOME="/home"
