@@ -3,6 +3,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh -b
 export PATH="/root/miniconda3/bin:$PATH"  # Temporarily add Miniconda to PATH for this session
 echo 'export PATH="/root/miniconda3/bin:$PATH"' >> ~/.bashrc  # Add Miniconda to PATH permanently
+rm -rf /root/Miniconda3-latest-Linux-x86_64.sh 
 
 source ~/.bashrc
 conda init bash
